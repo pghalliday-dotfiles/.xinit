@@ -1,0 +1,5 @@
+URxvt.font: xft:inconsolata:size=12
+URxvt.letterSpace: 0
+
+Xft.dpi: 96
+Xft.antialias: true
