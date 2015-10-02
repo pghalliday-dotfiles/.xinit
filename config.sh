@@ -4,11 +4,13 @@ xsetroot -cursor_name left_ptr
 
 [[ -f ~/.xinit/.Xresources ]] && xrdb -merge -I$HOME/.xinit ~/.xinit/.Xresources
 
-xsetbg -center ~/.xinit/background.png
+hsetroot -center ~/.xinit/background.png
 
 trayer --edge top --align right --SetDockType true --SetPartialStrut true \
   --expand true --width 10 --transparent true --tint 0x191970 --height 12 &
 
 xscreensaver -no-splash &
+
+compton -b -i 0.8
 
 exec xmonad
