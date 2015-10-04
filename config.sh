@@ -1,16 +1,18 @@
+DIR=$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)
+
 /usr/bin/VBoxClient-all
 
 xsetroot -cursor_name left_ptr
 
-[[ -f ~/.xinit/.Xresources ]] && xrdb -merge -I$HOME/.xinit ~/.xinit/.Xresources
+[[ -f $DIR/Xresources ]] && xrdb -merge -I$DIR $DIR/Xresources
 
-hsetroot -center ~/.xinit/background.png
+hsetroot -center $DIR/background.png
 
 trayer --edge top --align right --SetDockType true --SetPartialStrut true \
   --expand true --width 10 --transparent true --tint 0x191970 --height 12 &
 
 xscreensaver -no-splash &
 
-compton -b -i 0.8
+compton --config $DIR/compton.conf -b
 
 exec xmonad
