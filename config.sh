@@ -1,6 +1,8 @@
 DIR=$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)
 
-/usr/bin/VBoxClient-all
+if [ -f /usr/bin/VBoxClient-all ]; then
+  /usr/bin/VBoxClient-all
+fi
 
 xsetroot -cursor_name left_ptr
 

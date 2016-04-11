@@ -11,3 +11,11 @@ and create `~/.xinitrc`
 ```
 echo "source ~/.xinit/config.sh" > ~/.xinitrc
 ```
+
+## depends
+
+```
+compton
+trayer
+xmonad
+```
