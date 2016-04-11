@@ -19,4 +19,5 @@ compton
 trayer
 xmonad
 hsetroot (yaourt)
+ttf-dejavu
 ```
