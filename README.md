@@ -18,4 +18,5 @@ echo "source ~/.xinit/config.sh" > ~/.xinitrc
 compton
 trayer
 xmonad
+hsetroot (yaourt)
 ```
