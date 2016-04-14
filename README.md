@@ -1,15 +1,9 @@
 # xinit
 
-Clone to `~/.xinit`
-
 ```
-git clone git@github.com:pghalliday-dotfiles/xinit.git ~/.xinit
-```
-
-and create `~/.xinitrc`
-
-```
-echo "source ~/.xinit/config.sh" > ~/.xinitrc
+cd ~
+git clone git@github.com:pghalliday-dotfiles/.xinit.git
+cp -f .xinit/dotfiles.* .
 ```
 
 ## depends

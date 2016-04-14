@@ -1,0 +1,1 @@
+source ~/.xinit/config.sh
