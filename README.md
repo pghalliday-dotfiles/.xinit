@@ -18,4 +18,5 @@ trayer
 xmonad
 hsetroot (yaourt)
 ttf-dejavu
+parcellite
 ```
