@@ -14,9 +14,26 @@ xorg-server-utils
 xorg-apps
 xorg-init
 compton
-trayer
-xmonad
 hsetroot (yaourt)
 ttf-dejavu
 parcellite
+```
+
+only for xmonad:
+
+```
+trayer
+xmonad
+```
+
+only for i3:
+
+```
+i3
+```
+
+only for awesome:
+
+```
+awesome
 ```
