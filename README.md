@@ -17,6 +17,7 @@ compton
 hsetroot (yaourt)
 ttf-dejavu
 parcellite
+srandrd (yaourt)
 ```
 
 only for xmonad:

@@ -16,6 +16,9 @@ xscreensaver -no-splash &
 
 compton --config $DIR/compton.conf -b
 
+# auto detect displays
+$DIR/detect_displays.sh
+
 # set the default window manager
 if [ "$WM_MANAGER" == "" ]; then
   WM_MANAGER=i3
